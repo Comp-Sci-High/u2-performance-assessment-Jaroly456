@@ -2,7 +2,7 @@ const prompt = require('prompt-sync')()
 
 async function chatBot(promptData){
     const url = "https://api.openai.com/v1/images/generations"
-    const imgKey = "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"
+    const imgKey = ""
 
     const options = {
         method: "POST",
